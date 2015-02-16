@@ -2,8 +2,9 @@ package me.billhsu;
 import java.util.Arrays;
 /**
  * Created by Shipeng Xu on 2/16/15.
+ * https://oj.leetcode.com/problems/3sum-closest/
  */
-public class Solution_3Sum {
+public class Solution_3SumClosest {
     public int threeSumClosest(int[] num, int target) {
         Arrays.sort(num);
         int closest_all = Integer.MAX_VALUE;
