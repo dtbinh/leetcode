@@ -14,9 +14,9 @@ public class ListNode {
     public String toString() {
         String result = val + "->";
         ListNode nextNode = next;
-        while(next!=null) {
-            result = result + next.val + "->";
-            next = next.next;
+        while(nextNode!=null) {
+            result = result + nextNode.val + "->";
+            nextNode = nextNode.next;
         }
         return result;
     }
