@@ -1,8 +1,5 @@
 package me.billhsu;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -14,14 +11,12 @@ public class Main {
         ListNode l6 = new ListNode(6);
 
         l1.next = l2;
+        l2.next = l3;
         l3.next = l4;
+        l4.next = l5;
         l5.next = l6;
 
-        List<ListNode> list = new ArrayList<ListNode>();
-        list.add(null);
-//        list.add(l3);
-//        list.add(l5);
-        Solution_mergeKSortedLists solution = new Solution_mergeKSortedLists();
-        System.out.println(solution.mergeKLists(list));
+        Solution_swapNodesInPairs solution = new Solution_swapNodesInPairs();
+        System.out.println(solution.swapPairs(l1));
     }
 }
