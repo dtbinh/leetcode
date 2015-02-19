@@ -12,11 +12,11 @@ public class Main {
 
         l1.next = l2;
         l2.next = l3;
-        l3.next = l4;
-        l4.next = l5;
-        l5.next = l6;
+//        l3.next = l4;
+//        l4.next = l5;
+//        l5.next = l6;
 
-        Solution_swapNodesInPairs solution = new Solution_swapNodesInPairs();
-        System.out.println(solution.swapPairs(l1));
+        Solution_reverseNodesInKGroup solution = new Solution_reverseNodesInKGroup();
+        System.out.println(solution.reverseKGroup(l1, 4));
     }
 }
