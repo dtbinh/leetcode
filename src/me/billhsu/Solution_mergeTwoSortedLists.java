@@ -2,8 +2,9 @@ package me.billhsu;
 
 /**
  * Created by Shipeng Xu on 2/18/15.
+ * https://oj.leetcode.com/problems/merge-two-sorted-lists/
  */
-public class Solution_MergeTwoSortedLists {
+public class Solution_mergeTwoSortedLists {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode headl1, headl2, currentNode, head = null;
         headl1 = l1;
