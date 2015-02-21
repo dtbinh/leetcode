@@ -16,7 +16,9 @@ public class Main {
         l4.next = l5;
         l5.next = l6;
 
-        Solution_divideTwoIntegers solution = new Solution_divideTwoIntegers();
-        System.out.println(solution.divide(-2147483648, 1));
+        Solution_substringWithConcatenationOfAllWords solution = new Solution_substringWithConcatenationOfAllWords();
+        String[] L = {"foo", "bar", "foo"};
+        String input = "barfoofoothefoofoobarman";
+        System.out.println(solution.findSubstring(input, L));
     }
 }
