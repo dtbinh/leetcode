@@ -16,9 +16,8 @@ public class Main {
         l4.next = l5;
         l5.next = l6;
 
-        Solution_substringWithConcatenationOfAllWords solution = new Solution_substringWithConcatenationOfAllWords();
-        String[] L = {"foo", "bar", "foo"};
-        String input = "barfoofoothefoofoobarman";
-        System.out.println(solution.findSubstring(input, L));
+        Solution_nextPermutation solution = new Solution_nextPermutation();
+        int[] input = {1,3,2};
+        solution.nextPermutation(input);
     }
 }
