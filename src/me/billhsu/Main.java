@@ -16,8 +16,8 @@ public class Main {
         l4.next = l5;
         l5.next = l6;
 
-        Solution_searchForARange solution = new Solution_searchForARange();
-        int[] input = {0,1,2,2,3,4,5,6,7};
-        System.out.println(solution.searchRange(input, 2));
+        Solution_searchInsertPosition solution = new Solution_searchInsertPosition();
+        int[] input = {1,2,4,6,7};
+        System.out.println(solution.searchInsert(input, 3));
     }
 }
