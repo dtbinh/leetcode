@@ -16,8 +16,8 @@ public class Main {
         l4.next = l5;
         l5.next = l6;
 
-        Solution_longestValidParentheses solution = new Solution_longestValidParentheses();
-        String input = "()()";
-        System.out.println(solution.longestValidParentheses(input));
+        Solution_searchInRotatedSortedArray solution = new Solution_searchInRotatedSortedArray();
+        int[] input = {4,5,6,7,0,1,2,3};
+        System.out.println(solution.search(input, 2));
     }
 }
