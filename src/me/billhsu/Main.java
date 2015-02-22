@@ -16,10 +16,8 @@ public class Main {
         l4.next = l5;
         l5.next = l6;
 
-        Solution_validSudoku solution = new Solution_validSudoku();
-        char[][] input = {".87654321".toCharArray(),"2........".toCharArray(),"3........".toCharArray(),
-                "4........".toCharArray(),"5........".toCharArray(),"6........".toCharArray(),
-                "7........".toCharArray(),"8........".toCharArray(),"9........".toCharArray()};
-        System.out.println(solution.isValidSudoku(input));
+        Solution_implementStrstr solution = new Solution_implementStrstr();
+
+        System.out.println(solution.strStr("mississippi", "pi"));
     }
 }
