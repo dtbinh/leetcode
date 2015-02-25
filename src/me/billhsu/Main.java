@@ -18,7 +18,7 @@ public class Main {
         l4.next = l5;
         l5.next = l6;
         int[] input = {0,1,0,2,1,0,1,3,2,1,2,1};
-        int result = new Solution_trappingRainWater().trap(input);
+        String result = new Solution_multiplyStrings().multiply("237","284");
         System.out.println(result);
     }
 }
