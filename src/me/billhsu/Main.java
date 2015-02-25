@@ -17,7 +17,13 @@ public class Main {
         l3.next = l4;
         l4.next = l5;
         l5.next = l6;
-
-        System.out.println(new Solution_countAndSay().countAndSay(5));
+        int[] input = {1};
+        List<List<Integer>> result = new Solution_combinationSum().combinationSum(input, 2);
+        for(int i=0; i<result.size(); ++i) {
+            for(int j=0; j<result.get(i).size(); ++j) {
+                System.out.println(result.get(i).get(j));
+            }
+            System.out.println();
+        }
     }
 }
