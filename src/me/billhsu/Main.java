@@ -17,13 +17,8 @@ public class Main {
         l3.next = l4;
         l4.next = l5;
         l5.next = l6;
-        int[] input = {10,1,2,7,6,1,5};
-        List<List<Integer>> result = new Solution_combinationSumII().combinationSum2(input, 8);
-        for(int i=0; i<result.size(); ++i) {
-            for(int j=0; j<result.get(i).size(); ++j) {
-                System.out.print(result.get(i).get(j)+",");
-            }
-            System.out.println();
-        }
+        int[] input = {0,2,2,1,1};
+        int result = new Solution_firstMissingPositive().firstMissingPositive(input);
+        System.out.println(result);
     }
 }
