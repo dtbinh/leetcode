@@ -17,8 +17,8 @@ public class Main {
         l3.next = l4;
         l4.next = l5;
         l5.next = l6;
-        int[] input = {0,2,2,1,1};
-        int result = new Solution_firstMissingPositive().firstMissingPositive(input);
+        int[] input = {0,1,0,2,1,0,1,3,2,1,2,1};
+        int result = new Solution_trappingRainWater().trap(input);
         System.out.println(result);
     }
 }
