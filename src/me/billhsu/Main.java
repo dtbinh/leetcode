@@ -1,5 +1,6 @@
 package me.billhsu;
 
+import java.util.Arrays;
 import java.util.List;
 
 public class Main {
@@ -17,8 +18,13 @@ public class Main {
         l3.next = l4;
         l4.next = l5;
         l5.next = l6;
-        int[] input = {2,2,3,};
-        List<List<Integer>> result = new Solution_permutationsII().permuteUnique(input);
-        System.out.println(result);
+        int[][] input = {{1,2,3},{4,5,6},{7,8,9}};
+        new Solution_rotateImage().rotate(input);
+        for(int[] i:input) {
+            for(int j:i) {
+                System.out.print(j+",");
+            }
+            System.out.println();
+        }
     }
 }
