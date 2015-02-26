@@ -18,8 +18,8 @@ public class Main {
         l3.next = l4;
         l4.next = l5;
         l5.next = l6;
-        int[][] input = {{1,2,3},{4,5,6},{7,8,9}};
-        System.out.println(new Solution_powxN().pow(-1.00000, 2147483647));
+        String[] input = {"abc","acb","cba","aaa","bbb","cab"};
+        System.out.println(new Solution_anagrams().anagrams(input));
 
     }
 }
