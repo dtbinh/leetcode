@@ -19,12 +19,7 @@ public class Main {
         l4.next = l5;
         l5.next = l6;
         int[][] input = {{1,2,3},{4,5,6},{7,8,9}};
-        new Solution_rotateImage().rotate(input);
-        for(int[] i:input) {
-            for(int j:i) {
-                System.out.print(j+",");
-            }
-            System.out.println();
-        }
+        System.out.println(new Solution_powxN().pow(-1.00000, 2147483647));
+
     }
 }
