@@ -17,8 +17,8 @@ public class Main {
         l3.next = l4;
         l4.next = l5;
         l5.next = l6;
-        int[] input = {1,2,3};
-        int result = new Solution_jumpGameII().jump(input);
+        int[] input = {2,2,3,};
+        List<List<Integer>> result = new Solution_permutationsII().permuteUnique(input);
         System.out.println(result);
     }
 }
