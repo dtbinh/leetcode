@@ -18,7 +18,7 @@ public class Main {
         l4.next = l5;
         l5.next = l6;
         int[] input = {0,1,0,2,1,0,1,3,2,1,2,1};
-        String result = new Solution_multiplyStrings().multiply("237","284");
+        boolean result = new Solution_wildcardMatching().isMatch("abcdd","a*c*e");
         System.out.println(result);
     }
 }
