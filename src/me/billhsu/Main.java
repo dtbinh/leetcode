@@ -1,5 +1,6 @@
 package me.billhsu;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -18,7 +19,12 @@ public class Main {
         l3.next = l4;
         l4.next = l5;
         l5.next = l6;
-        int[] input = {-2,1,-3,4,-1,2,1,-5,4};
-        System.out.println(new Solution_nQueensII().totalNQueens(4));
+        List<Interval> input = new ArrayList<Interval>();
+        input.add(new Interval(2,3));
+        input.add(new Interval(4,5));
+        input.add(new Interval(6,7));
+        input.add(new Interval(8,9));
+        input.add(new Interval(1,10));
+        System.out.println(new Solution_mergeIntervals().merge(input));
     }
 }
