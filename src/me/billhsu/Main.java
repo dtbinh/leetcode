@@ -18,8 +18,7 @@ public class Main {
         l3.next = l4;
         l4.next = l5;
         l5.next = l6;
-        String[] input = {"abc","acb","cba","aaa","bbb","cab"};
-        System.out.println(new Solution_anagrams().anagrams(input));
-
+        int[] input = {-2,1,-3,4,-1,2,1,-5,4};
+        System.out.println(new Solution_maximumSubarray().maxSubArray(input));
     }
 }
