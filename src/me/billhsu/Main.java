@@ -19,6 +19,6 @@ public class Main {
         l4.next = l5;
         l5.next = l6;
         int[] input = {-2,1,-3,4,-1,2,1,-5,4};
-        System.out.println(new Solution_maximumSubarray().maxSubArray(input));
+        System.out.println(new Solution_nQueensII().totalNQueens(4));
     }
 }
