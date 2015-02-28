@@ -25,6 +25,6 @@ public class Main {
 //        input.add(new Interval(6,7));
 //        input.add(new Interval(8,10));
 //        input.add(new Interval(12,16));
-        System.out.println(new Solution_insertInterval().insert(input, new Interval(7,16)));
+        System.out.println(new Solution_editDistance().minDistance("ab","bc"));
     }
 }
