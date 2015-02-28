@@ -20,7 +20,7 @@ public class Main {
         l4.next = l5;
         l5.next = l6;
 
-        int[][] input = {{3},{2}};
-        System.out.println(new Solution_spiralMatrix().spiralOrder(input));
+        int[] input = {1,2,3};
+        System.out.println(new Solution_jumpGame().canJump(input));
     }
 }
