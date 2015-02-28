@@ -19,12 +19,8 @@ public class Main {
         l3.next = l4;
         l4.next = l5;
         l5.next = l6;
-        List<Interval> input = new ArrayList<Interval>();
-        input.add(new Interval(0,5));
-        input.add(new Interval(9,12));
-//        input.add(new Interval(6,7));
-//        input.add(new Interval(8,10));
-//        input.add(new Interval(12,16));
-        System.out.println(new Solution_editDistance().minDistance("ab","bc"));
+
+        int[][] input = {{3},{2}};
+        System.out.println(new Solution_spiralMatrix().spiralOrder(input));
     }
 }
