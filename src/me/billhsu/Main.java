@@ -21,6 +21,6 @@ public class Main {
         l5.next = l6;
 
         int[] input = {1,2,3};
-        System.out.println(new Solution_jumpGame().canJump(input));
+        System.out.println(new Solution_spiralMatrixII().generateMatrix(3));
     }
 }
