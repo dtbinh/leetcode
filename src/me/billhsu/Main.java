@@ -20,7 +20,7 @@ public class Main {
         l4.next = l5;
         l5.next = l6;
 
-        int[] input = {1,2,3};
-        System.out.println(new Solution_permutationSequence().getPermutation(3,2));
+        int[] input = {9};
+        System.out.println(Arrays.toString(new Solution_plusOne().plusOne(input)));
     }
 }
