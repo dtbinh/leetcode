@@ -21,6 +21,6 @@ public class Main {
         l5.next = l6;
 
         int[] input = {9};
-        System.out.println(new Solution_addBinary().addBinary("111", "1"));
+        System.out.println(new Solution_simplifyPath().simplifyPath("/abc/..."));
     }
 }
