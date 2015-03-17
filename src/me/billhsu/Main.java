@@ -20,7 +20,7 @@ public class Main {
         l4.next = l5;
         l5.next = l6;
 
-        int[] input = {9};
-        System.out.println(new Solution_simplifyPath().simplifyPath("/abc/..."));
+        int[][] input = {{0,1}};
+        new Solution_setMatrixZeroes().setZeroes(input);
     }
 }
