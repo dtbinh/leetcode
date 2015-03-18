@@ -20,7 +20,7 @@ public class Main {
         l4.next = l5;
         l5.next = l6;
 
-        int[][] input = {{0,1}};
-        new Solution_setMatrixZeroes().setZeroes(input);
+        int[][] input = {{1,3,5,7},{10,11,16,20},{23,30,34,50}};
+        new Solution_searchA2dMatrix().searchMatrix(input, 3);
     }
 }
