@@ -5,6 +5,7 @@ import java.util.List;
 
 /**
  * Created by Shipeng Xu on 11/6/15.
+ * https://leetcode.com/problems/combinations/
  */
 public class Solution_combinations {
     public List<List<Integer>> combine(int n, int k) {
